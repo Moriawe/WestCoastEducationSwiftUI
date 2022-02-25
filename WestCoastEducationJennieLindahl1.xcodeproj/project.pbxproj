@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5F5005027C7B6650080FAE2 /* WestCoastEducationJennieLindahl1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F5004F27C7B6650080FAE2 /* WestCoastEducationJennieLindahl1App.swift */; };
+		A5F5005227C7B6650080FAE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F5005127C7B6650080FAE2 /* ContentView.swift */; };
+		A5F5005427C7B66C0080FAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F5005327C7B66C0080FAE2 /* Assets.xcassets */; };
+		A5F5005727C7B66C0080FAE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F5005627C7B66C0080FAE2 /* Preview Assets.xcassets */; };
+		A5F5006327C7B6FD0080FAE2 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F5006227C7B6FD0080FAE2 /* CourseModel.swift */; };
+		A5F5006527C7B73B0080FAE2 /* CourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F5006427C7B73B0080FAE2 /* CourseViewModel.swift */; };
+		A5F5006727C7B77E0080FAE2 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F5006627C7B77E0080FAE2 /* ListView.swift */; };
+		A5F5006927C7B7B20080FAE2 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F5006827C7B7B20080FAE2 /* ListRowView.swift */; };
+		A5F5006B27C7B7EF0080FAE2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F5006A27C7B7EF0080FAE2 /* HomeView.swift */; };
+		A5F5006F27C7C7CA0080FAE2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F5006E27C7C7CA0080FAE2 /* MapView.swift */; };
+		A5F5007127C7DC580080FAE2 /* Parisienne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5F5007027C7DC580080FAE2 /* Parisienne-Regular.ttf */; };
+		A5F5007327C7DD0A0080FAE2 /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5F5007227C7DD0A0080FAE2 /* JosefinSans-Italic-VariableFont_wght.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A539E5B127C8BCEC009C7E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A5F5004C27C7B6650080FAE2 /* WestCoastEducationJennieLindahl1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WestCoastEducationJennieLindahl1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F5004F27C7B6650080FAE2 /* WestCoastEducationJennieLindahl1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestCoastEducationJennieLindahl1App.swift; sourceTree = "<group>"; };
+		A5F5005127C7B6650080FAE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5F5005327C7B66C0080FAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5F5005627C7B66C0080FAE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5F5006227C7B6FD0080FAE2 /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
+		A5F5006427C7B73B0080FAE2 /* CourseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewModel.swift; sourceTree = "<group>"; };
+		A5F5006627C7B77E0080FAE2 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		A5F5006827C7B7B20080FAE2 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		A5F5006A27C7B7EF0080FAE2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A5F5006E27C7C7CA0080FAE2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A5F5007027C7DC580080FAE2 /* Parisienne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Parisienne-Regular.ttf"; sourceTree = "<group>"; };
+		A5F5007227C7DD0A0080FAE2 /* JosefinSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5F5004927C7B6650080FAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A539E5B027C8BB54009C7E5B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A5F5007027C7DC580080FAE2 /* Parisienne-Regular.ttf */,
+				A5F5007227C7DD0A0080FAE2 /* JosefinSans-Italic-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A5F5004327C7B6650080FAE2 = {
+			isa = PBXGroup;
+			children = (
+				A5F5004E27C7B6650080FAE2 /* WestCoastEducationJennieLindahl1 */,
+				A5F5004D27C7B6650080FAE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F5004D27C7B6650080FAE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F5004C27C7B6650080FAE2 /* WestCoastEducationJennieLindahl1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F5004E27C7B6650080FAE2 /* WestCoastEducationJennieLindahl1 */ = {
+			isa = PBXGroup;
+			children = (
+				A539E5B127C8BCEC009C7E5B /* Info.plist */,
+				A539E5B027C8BB54009C7E5B /* Fonts */,
+				A5F5005F27C7B67F0080FAE2 /* ViewModels */,
+				A5F5005E27C7B6790080FAE2 /* Models */,
+				A5F5005D27C7B6730080FAE2 /* Views */,
+				A5F5004F27C7B6650080FAE2 /* WestCoastEducationJennieLindahl1App.swift */,
+				A5F5005127C7B6650080FAE2 /* ContentView.swift */,
+				A5F5005327C7B66C0080FAE2 /* Assets.xcassets */,
+				A5F5005527C7B66C0080FAE2 /* Preview Content */,
+			);
+			path = WestCoastEducationJennieLindahl1;
+			sourceTree = "<group>";
+		};
+		A5F5005527C7B66C0080FAE2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A5F5005627C7B66C0080FAE2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5F5005D27C7B6730080FAE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5F5006627C7B77E0080FAE2 /* ListView.swift */,
+				A5F5006827C7B7B20080FAE2 /* ListRowView.swift */,
+				A5F5006A27C7B7EF0080FAE2 /* HomeView.swift */,
+				A5F5006E27C7C7CA0080FAE2 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5F5005E27C7B6790080FAE2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5F5006227C7B6FD0080FAE2 /* CourseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5F5005F27C7B67F0080FAE2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A5F5006427C7B73B0080FAE2 /* CourseViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5F5004B27C7B6650080FAE2 /* WestCoastEducationJennieLindahl1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F5005A27C7B66C0080FAE2 /* Build configuration list for PBXNativeTarget "WestCoastEducationJennieLindahl1" */;
+			buildPhases = (
+				A5F5004827C7B6650080FAE2 /* Sources */,
+				A5F5004927C7B6650080FAE2 /* Frameworks */,
+				A5F5004A27C7B6650080FAE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WestCoastEducationJennieLindahl1;
+			productName = WestCoastEducationJennieLindahl1;
+			productReference = A5F5004C27C7B6650080FAE2 /* WestCoastEducationJennieLindahl1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5F5004427C7B6650080FAE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A5F5004B27C7B6650080FAE2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A5F5004727C7B6650080FAE2 /* Build configuration list for PBXProject "WestCoastEducationJennieLindahl1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5F5004327C7B6650080FAE2;
+			productRefGroup = A5F5004D27C7B6650080FAE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5F5004B27C7B6650080FAE2 /* WestCoastEducationJennieLindahl1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5F5004A27C7B6650080FAE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F5005727C7B66C0080FAE2 /* Preview Assets.xcassets in Resources */,
+				A5F5007327C7DD0A0080FAE2 /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */,
+				A5F5005427C7B66C0080FAE2 /* Assets.xcassets in Resources */,
+				A5F5007127C7DC580080FAE2 /* Parisienne-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5F5004827C7B6650080FAE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F5006327C7B6FD0080FAE2 /* CourseModel.swift in Sources */,
+				A5F5006F27C7C7CA0080FAE2 /* MapView.swift in Sources */,
+				A5F5006B27C7B7EF0080FAE2 /* HomeView.swift in Sources */,
+				A5F5006527C7B73B0080FAE2 /* CourseViewModel.swift in Sources */,
+				A5F5006727C7B77E0080FAE2 /* ListView.swift in Sources */,
+				A5F5005227C7B6650080FAE2 /* ContentView.swift in Sources */,
+				A5F5005027C7B6650080FAE2 /* WestCoastEducationJennieLindahl1App.swift in Sources */,
+				A5F5006927C7B7B20080FAE2 /* ListRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5F5005827C7B66C0080FAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5F5005927C7B66C0080FAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5F5005B27C7B66C0080FAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WestCoastEducationJennieLindahl1/Preview Content\"";
+				DEVELOPMENT_TEAM = N3V3AC3KC9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WestCoastEducationJennieLindahl1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.Morris.WestCoastEducationJennieLindahl1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5F5005C27C7B66C0080FAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WestCoastEducationJennieLindahl1/Preview Content\"";
+				DEVELOPMENT_TEAM = N3V3AC3KC9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WestCoastEducationJennieLindahl1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.Morris.WestCoastEducationJennieLindahl1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5F5004727C7B6650080FAE2 /* Build configuration list for PBXProject "WestCoastEducationJennieLindahl1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F5005827C7B66C0080FAE2 /* Debug */,
+				A5F5005927C7B66C0080FAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F5005A27C7B66C0080FAE2 /* Build configuration list for PBXNativeTarget "WestCoastEducationJennieLindahl1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F5005B27C7B66C0080FAE2 /* Debug */,
+				A5F5005C27C7B66C0080FAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5F5004427C7B6650080FAE2 /* Project object */;
+}
